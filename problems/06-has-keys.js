@@ -4,7 +4,24 @@ strings. It should return true if all of the strings in the array are keys in
 the object.
 */
 
-// Your code here 
+function hasKeys(obj, arr){
+  let answer = true;
+
+  for(let i = 0; i < arr.length; i++){
+
+    if(arr[i] in obj === true){
+
+      answer = true;
+    }
+    else{
+      answer = false;
+      break;
+    }
+  }
+
+  return answer;
+
+}
 
 // let survey = {
 //   name: 'Check',
