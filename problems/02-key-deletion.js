@@ -3,9 +3,7 @@ Given the object below, delete the key-value pair such that "{}" is printed
 when printing the object.
 */
 
-const obj = {
-  first: "1"
-}
+const obj = {}
 /******************** DO NOT MODIFY ANY CODE ABOVE THIS LINE *****************/
 
 // Your code here 
